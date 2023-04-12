@@ -4,7 +4,7 @@ Projeto para o teste prático da WBC sistemas.
 
 ## Tecnologias utilizadas 
 
-Projeto feito puramente utilizando Dart FLutter e Getx como gerenciador de estado.
+Projeto feito puramente utilizando Dart Flutter e Getx para gerenciamento de estado.
 
 tela de login não funcional, porém é necessario prencher o campo 'Username' para entrar.
 
