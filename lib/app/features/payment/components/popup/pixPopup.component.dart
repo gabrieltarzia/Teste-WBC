@@ -12,7 +12,8 @@ class PixPopupComponent extends GetView<PaymentController> {
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.all(7),
         child: Card(
-          child: Column(
+          child: ListView(
+            shrinkWrap: true,
             children: [
               const Divider(),
               const Spacer(),

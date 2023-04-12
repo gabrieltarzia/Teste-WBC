@@ -12,26 +12,16 @@ class CryptoPopupComponent extends GetView<PaymentController> {
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.all(7),
         child: Card(
-          child: Column(
+          child: ListView(
+            shrinkWrap: true,
             children: [
               const Divider(),
               const Spacer(),
               Padding(
                 padding: const EdgeInsets.all(8),
-                child: Stack(
-                  children: [
-                    Image.network(UrlConstant.cryptoLogo,
-                        loadingBuilder: (context, child, progress) =>
-                            progress == null
-                                ? Center(child: child)
-                                : const LoadingComponent()),
-                    Image.network(UrlConstant.qrCodeExample,
-                        loadingBuilder: (context, child, progress) =>
-                            progress == null
-                                ? child
-                                : const LoadingComponent()),
-                  ],
-                ),
+                child: Image.network(UrlConstant.qrCodeExample,
+                    loadingBuilder: (context, child, progress) =>
+                        progress == null ? child : const LoadingComponent()),
               ),
               const Spacer(),
               const Divider(),
