@@ -1,16 +1,22 @@
-# teste_wbc
+# Teste WBC
 
-A new Flutter project.
+Projeto para o teste prático da WBC sistemas.
 
-## Getting Started
+## Tecnologias utilizadas 
 
-This project is a starting point for a Flutter application.
+Projeto feito puramente utilizando Dart FLutter e Getx como gerenciador de estado.
+tela de login não funcional, podem é necessario prencher o campo 'Username' para entrar.
+Formas de pagamento não funcionais, apenas para ilustração.
+É necessario acesso a internet no aparelho para carregar as imagens.
 
-A few resources to get you started if this is your first Flutter project:
+Debug feito em um Samsung Galazy A10
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Execução do projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+°Clone o repositorio utilizando os comando do git no console do VScode ou Android Studio.
+°Execute o comando 'flutter run' no console, ou a opção 'run and debug', ou apenas pressionando a tecla de atalho 'F5'.
+
+
+
+
+
