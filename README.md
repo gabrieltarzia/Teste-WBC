@@ -12,7 +12,7 @@ Formas de pagamento não funcionais, apenas para ilustração.
 
 É necessario acesso a internet no aparelho para carregar as imagens.
 
-Debug feito em um Samsung Galazy A10
+Debug feito em um Samsung Galaxy A10
 
 ### Execução do projeto
 
